@@ -147,8 +147,8 @@ class AStar:
 def draw():
     vectorx = 0
     vectory = 0
-    height = 100
-    width = 100
+    height = 23
+    width = 31
     size = 20
     color = (255, 255, 255)
     rectangles.clear()
