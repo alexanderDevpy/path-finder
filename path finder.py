@@ -144,7 +144,7 @@ class AStar:
         return 0
 
 
-def drow():
+def draw():
     vectorx = 0
     vectory = 0
     height = 100
@@ -181,7 +181,7 @@ def main():
     reset = False
 
     done = False
-    drow()
+    draw()
     while not done:
         for event in pg.event.get():
             if event.type == pg.QUIT:
@@ -203,7 +203,7 @@ def main():
                             reset = False
                             greenuse = False
                             reduse = False
-                            drow()
+                            draw()
 
         if pg.mouse.get_pressed()[0]:
             mouse_pos = pg.mouse.get_pos()
